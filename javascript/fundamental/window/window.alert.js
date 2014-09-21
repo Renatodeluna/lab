@@ -22,7 +22,7 @@
 	}
 
 	document.getElementById('sendButton').onclick = function() { 
-		confirmationForm('Sent successfully!'); 
+		confirmationForm('Send successfully!'); 
 	};
 
 
