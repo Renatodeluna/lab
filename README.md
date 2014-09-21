@@ -11,6 +11,6 @@ Code of studies and experiments, various programming languages​​, from basic
 - [JavaScript](javascript/)
 - [CSS](css/)
 
-## License
+## 
 
 The MIT License (MIT) - 2014 Renato de Luna
