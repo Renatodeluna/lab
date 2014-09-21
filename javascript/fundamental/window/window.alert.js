@@ -27,7 +27,7 @@
 
 
 
-	// Hostname
+	// Not only string also object 
 	var myHostname = function() {
 		alert(location.hostname);
 	};
