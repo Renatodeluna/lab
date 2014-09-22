@@ -3,5 +3,10 @@
 
 // 	------ Math Round -------------------------------------------------
 
-	document.write( Math.round(7 / 4) );
+	// Syntax
+	Math.round(x);
+
+
+
+	document.write( Math.round(1.005 * 100) / 100); // => 1
 	
