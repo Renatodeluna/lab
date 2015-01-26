@@ -7,7 +7,7 @@
 
 	
 	// Syntax
-	document.getElementsByClassName(names);	//	returns an array of elements
+	document.getElementsByClassName(names);	// returns an array of elements
 
 	
 
@@ -24,6 +24,6 @@
 
 
 	// Length	
-	var element = document.getElementsByClassName('xpto');	//	returns the length
+	var element = document.getElementsByClassName('xpto');	// returns the length
 	console.log(element.length);
 
