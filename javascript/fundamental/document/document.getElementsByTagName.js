@@ -25,6 +25,7 @@
 	myFunction();
 
 
+	//	Functions
 	function xpto() {
 
 		var x = document.getElementsByTagName("p");
