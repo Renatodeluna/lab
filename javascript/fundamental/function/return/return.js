@@ -59,3 +59,16 @@
 	var answer = magic();
 	answer(2015); // 84630
 
+
+	function doWork() {
+
+		return function calculate(y) {
+			return y + 1;
+		}
+
+	}
+
+	var func = doWork();
+	var x = func(6);
+	document.write(x); // 7
+
