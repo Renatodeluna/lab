@@ -59,3 +59,19 @@
 	console.log(foo['array']); // return [1, 2, 3, 4]
 
 
+	// Loop
+	var vetor = [];
+
+	for ( i = 1; i <= 5; i++ ) {
+
+	    var next = vetor.length;
+	    console.log(next);
+	    vetor[next] = "Value " + i;
+
+	}
+
+	for ( i = 0; i < vetor.length; i++ ) {	// Print
+	    document.write( vetor[i] + "<br>" );
+	}
+
+
