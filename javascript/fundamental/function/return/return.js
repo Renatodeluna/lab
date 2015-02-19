@@ -10,8 +10,8 @@
 
 
 	// Simple return
-	function xpto(x) {	// Ex: x = 1
-		return x + x;			// 2
+	function xpto(x) {	 // Ex: x = 1
+		return x + x;			 // 2
 	}
 	
 
