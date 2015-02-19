@@ -32,3 +32,12 @@
 	var fruits = ["Banana", "Orange", "Apple", "Mango"];
 	fruits.unshift("Lemon","Pineapple");
 	// return Lemon,Pineapple,Banana,Orange,Apple,Mango
+
+
+	var arr = [];
+
+	arr.unshift(10, 11);
+	arr.unshift(12, 13, 14);
+	
+	document.write(arr.toString());
+	// return: 12,13,14,10,11
