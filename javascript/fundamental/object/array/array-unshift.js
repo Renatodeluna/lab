@@ -28,3 +28,7 @@
 	console.log( data ); 
 	// return ['B','C','A','X']
 
+
+	var fruits = ["Banana", "Orange", "Apple", "Mango"];
+	fruits.unshift("Lemon","Pineapple");
+	// return Lemon,Pineapple,Banana,Orange,Apple,Mango
