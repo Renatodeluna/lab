@@ -7,7 +7,7 @@
 	
 
 	// Syntax
-	//dateObj.getMonth()
+	dateObj.getMonth()
 
 
 	// Simple
@@ -44,9 +44,6 @@
 	var n = month[d.getMonth()];
 
 	console.log(n);
-
-	console.log(d.getMonth());
-
 	// return March
 
 
