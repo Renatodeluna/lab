@@ -7,7 +7,7 @@
 	
 
 	// Syntax
-	//dateObj.getDay()
+	dateObj.getDay()
 
 
 	// Simple
