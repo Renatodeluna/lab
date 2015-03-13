@@ -36,6 +36,39 @@
 	}
 
 	Toy.prototype = Object.create(Product.prototype);
-
 	var cheese = new Food('feta', 5);
 	var fun = new Toy('robot', 40);
+
+
+	var url = 'renatodeluna.com.br';
+	var site = { url : 'frontend.com.br' };
+
+	function f(){
+	  console.log(this.url);
+	}
+
+	f.call(site);
+	// return frontend.com.br
+
+
+	// Parameters
+	var url = 'renatodeluna.com';
+	var site = { url : 'developer front-end' };
+
+	function f(p1,p2) {
+		console.log(this.url + ' - ' + p1 + ' - ' + p2);
+	}
+
+	f('javascript', 'site');
+	f.call(site, 'codigos', 'developer');
+	// return:
+	// 	undefined - javascript - site
+	// 	developer front-end - codigos - developer
+
+
+
+
+
+
+
+
