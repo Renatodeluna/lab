@@ -17,3 +17,8 @@
 	var hi = "hello worde!";
 	console.log(hi.toUpperCase());
 	//	return "HELLO WORD!"
+
+
+	var hello = "Hello Worde!";
+	console.log(hello.toUpperCase());
+	//	return "HELLO WORD!"
