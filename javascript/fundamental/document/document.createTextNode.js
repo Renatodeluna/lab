@@ -7,7 +7,7 @@
 
 	
 	// Syntax
-	document.createTextNode(data);
+	document.createTextNode(text);
 
 
 	// Simple 
@@ -15,6 +15,12 @@
 	var text    = document.createTextNode('Hello World');
 	
 	console.log(headers.appendChild(text));
-	// return Hello World 
+	// return Hello World
 
-	
+
+var paragrafo = document.createElement('P');
+var text      = document.createTextNode('This is a paragraph');
+
+console.log(paragrafo.appendChild(text)); 
+// return This is a paragraph
+
